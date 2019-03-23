@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?><!--layout a single list item-->
+<!--Layout for a single list item-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:id="@+id/list_item"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/image"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="vertical"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp">
+
+            <TextView
+                android:id="@+id/name_textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="name"
+                android:textStyle="bold"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:id="@+id/address_textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="address" />
+
+            <TextView
+                android:id="@+id/phone_textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="(704) 704-7704" />
+
+    </LinearLayout>
+
+</LinearLayout>

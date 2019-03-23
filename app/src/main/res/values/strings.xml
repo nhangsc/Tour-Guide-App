@@ -1,0 +1,98 @@
+<resources>
+
+    <string name="app_name">MyTour</string>
+    <string name="category_eat">Eating</string>
+    <string name="category_visit">Visiting</string>
+    <string name="category_shop">Shopping</string>
+    <string name="category_stay">Staying</string>
+    <string name="category_detail">Player</string>
+
+
+    <string name="Search">Search</string>
+    <string name="Sort">Sort</string>
+    <string name="Settings">Settings</string>
+    <string name="Tips">Tips</string>
+    <string name="Maps">Maps</string>
+
+
+
+
+
+    //EAT
+    <string name="name11">Mc.Donald</string>
+    <string name="name12">Bugger King</string>
+    <string name="name13">Pizza Hut</string>
+    <string name="name14">Sake</string>
+    <string name="name15">Doan Restaurant</string>
+
+    <string name="address11">399 South Tryon, NC 28202</string>
+    <string name="address12">234 160 High Way, SC 29788</string>
+    <string name="address13">4567 Anderson, SC 29755</string>
+    <string name="address14">341 King road, NC 28233</string>
+    <string name="address15">21 Main Street, NC 29767</string>
+
+    <string name="phone11">(704) 833-4577</string>
+    <string name="phone12">(704) 833-9833</string>
+    <string name="phone13">(704) 833-9824</string>
+    <string name="phone14">(704) 833-9856</string>
+    <string name="phone15">(704) 833-9800</string>
+
+
+    //VISIT
+    <string name="name21">Zoo</string>
+    <string name="name22">Bowling</string>
+    <string name="name23">Down Town</string>
+    <string name="name24">Skating</string>
+    <string name="name25">Blowing Rock</string>
+
+    <string name="address21">399 South Tryon, NC 28202</string>
+    <string name="address22">234 160 High Way, SC 29788</string>
+    <string name="address23">4567 Anderson, SC 29755</string>
+    <string name="address24">341 King road, NC 28233</string>
+    <string name="address25">21 Main Street, NC 29767</string>
+
+    <string name="phone21">(704) 833-4577</string>
+    <string name="phone22">(704) 833-9833</string>
+    <string name="phone23">(704) 833-9824</string>
+    <string name="phone24">(704) 833-9856</string>
+    <string name="phone25">(704) 833-9800</string>
+
+
+    //SHOP
+    <string name="name31">North Face</string>
+    <string name="name32">Macy</string>
+    <string name="name33">Target</string>
+    <string name="name34">Walmart</string>
+    <string name="name35">Best Buy</string>
+
+    <string name="address31">399 South Tryon, NC 28202</string>
+    <string name="address32">234 160 High Way, SC 29788</string>
+    <string name="address33">4567 Anderson, SC 29755</string>
+    <string name="address34">341 King road, NC 28233</string>
+    <string name="address35">21 Main Street, NC 29767</string>
+
+    <string name="phone31">(704) 833-4577</string>
+    <string name="phone32">(704) 833-9833</string>
+    <string name="phone33">(704) 833-9824</string>
+    <string name="phone34">(704) 833-9856</string>
+    <string name="phone35">(704) 833-9800</string>
+
+    //STAY
+    <string name="name41">Hillton</string>
+    <string name="name42">Grand</string>
+    <string name="name43">Motel 28</string>
+    <string name="name44">Sheraton</string>
+    <string name="name45">Home Stay</string>
+
+    <string name="address41">399 South Tryon, NC 28202</string>
+    <string name="address42">234 160 High Way, SC 29788</string>
+    <string name="address43">4567 Anderson, SC 29755</string>
+    <string name="address44">341 King road, NC 28233</string>
+    <string name="address45">21 Main Street, NC 29767</string>
+
+    <string name="phone41">(704) 833-4577</string>
+    <string name="phone42">(704) 833-9833</string>
+    <string name="phone43">(704) 833-9824</string>
+    <string name="phone44">(704) 833-9856</string>
+    <string name="phone45">(704) 833-9800</string>
+</resources>

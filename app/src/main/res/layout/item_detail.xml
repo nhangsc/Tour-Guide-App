@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/place_detail">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:scaleType="centerCrop"
+                android:id="@+id/detailImg"
+                android:src="@drawable/bg" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:textSize="25sp"
+                android:text="Place Title"
+                android:layout_below="@+id/detailImg"
+                android:textStyle="bold"
+                android:id="@+id/placeTitle"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:textSize="20sp"
+                android:text="About"
+                android:layout_below="@id/placeTitle"
+                android:textStyle="bold"
+                android:id="@+id/about"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:textSize="16sp"
+                android:layout_below="@+id/about"
+                android:text="Description"
+                android:id="@+id/description"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:textSize="20sp"
+                android:text="Details"
+                android:textStyle="bold"
+                android:layout_below="@+id/description"
+                android:id="@+id/details"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:textSize="16sp"
+                android:layout_below="@+id/details"
+                android:text="Address"
+                android:id="@+id/addressItem"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:textSize="16sp"
+                android:layout_below="@+id/addressItem"
+                android:text="Phone"
+                android:id="@+id/phoneItem"/>
+
+
+
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
