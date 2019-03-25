@@ -7,18 +7,13 @@
     <string name="category_stay">Staying</string>
     <string name="category_detail">Player</string>
 
-
     <string name="Search">Search</string>
     <string name="Sort">Sort</string>
     <string name="Settings">Settings</string>
     <string name="Tips">Tips</string>
     <string name="Maps">Maps</string>
 
-
-
-
-
-    //EAT
+    <!--EAT-->
     <string name="name11">Mc.Donald</string>
     <string name="name12">Bugger King</string>
     <string name="name13">Pizza Hut</string>
@@ -38,7 +33,7 @@
     <string name="phone15">(704) 833-9800</string>
 
 
-    //VISIT
+    <!--VISIT-->
     <string name="name21">Zoo</string>
     <string name="name22">Bowling</string>
     <string name="name23">Down Town</string>
@@ -58,7 +53,7 @@
     <string name="phone25">(704) 833-9800</string>
 
 
-    //SHOP
+    <!--SHOP-->
     <string name="name31">North Face</string>
     <string name="name32">Macy</string>
     <string name="name33">Target</string>
@@ -77,7 +72,7 @@
     <string name="phone34">(704) 833-9856</string>
     <string name="phone35">(704) 833-9800</string>
 
-    //STAY
+    <!--STAY-->
     <string name="name41">Hillton</string>
     <string name="name42">Grand</string>
     <string name="name43">Motel 28</string>
@@ -95,4 +90,5 @@
     <string name="phone43">(704) 833-9824</string>
     <string name="phone44">(704) 833-9856</string>
     <string name="phone45">(704) 833-9800</string>
+
 </resources>
