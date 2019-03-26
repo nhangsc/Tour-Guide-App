@@ -16,26 +16,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:parentActivityName=".EatFragment"
-            android:name=".EatFragment"
-            android:label="@string/category_eat" />
-        <activity
-            android:parentActivityName=".VisitFragment"
-            android:name=".VisitFragment"
-            android:label="@string/category_visit" />
-        <activity
-            android:parentActivityName=".ShopFragment"
-            android:name=".ShopFragment"
-            android:label="@string/category_shop" />
-        <activity
-            android:parentActivityName=".StayFragment"
-            android:name=".StayFragment"
-            android:label="@string/category_stay" />
-        <activity
-            android:parentActivityName=".EatFragment"
-            android:name=".DetailItem"
-            android:label="@string/category_detail" />
 
     </application>
 
