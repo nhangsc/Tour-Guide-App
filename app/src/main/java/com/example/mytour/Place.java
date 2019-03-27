@@ -2,44 +2,44 @@ package com.example.mytour;
 
 public class Place {
     //Name of the place
-    private String mName;
+    private String Name;
 
     //Address of the place
-    private String mAddress;
+    private String Address;
 
     //Phone of the place
-    private String mPhone;
+    private String Phone;
 
     //Image resource ID for place
-    private int mImageResourceId;
+    private int ImageResourceId;
 
 
 
     public Place(String name, String address, String phone, int imageResourceId) {
-        mName = name;
-        mAddress = address;
-        mPhone = phone;
-        mImageResourceId = imageResourceId;
+        Name = name;
+        Address = address;
+        Phone = phone;
+        ImageResourceId = imageResourceId;
     }
 
     //Get name
-    public String getmName() {
-        return mName;
+    public String getName() {
+        return Name;
     }
 
     //Get address
-    public String getmAddress() {
-        return mAddress;
+    public String getAddress() {
+        return Address;
     }
 
     //Get phone
-    public String getmPhone() {
-        return mPhone;
+    public String getPhone() {
+        return Phone;
     }
 
     //Get image
     public int getImageResourceId() {
-        return mImageResourceId;
+        return ImageResourceId;
 
 
     }

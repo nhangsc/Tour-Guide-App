@@ -34,22 +34,22 @@ public class PlaceAdapter extends ArrayAdapter<Place> {
         Place currentPlace = getItem(position);
 
         // Find the TextView in the list_item.xml layout with the ID app_textView.
-        TextView nameTextView = (TextView) listItemView.findViewById(R.id.name_textView);
+        TextView textView = listItemView.findViewById(R.id.name_textView);
         // Get the carolinas address from the currentPlace object and set this text on
         // the carolinas TextView.
-        nameTextView.setText(currentPlace.getmName());
+        textView.setText(currentPlace.getName());
 
         // Find the TextView in the list_item.xml layout with the ID default_textView.
         TextView addressTextView = (TextView) listItemView.findViewById(R.id.address_textView);
         // Get the default textView from the currentPlace object and set this text on
         // the default TextView.
-        addressTextView.setText(currentPlace.getmAddress());
+        addressTextView.setText(currentPlace.getAddress());
 
         // Find the TextView in the list_item.xml layout with the ID app_textView.
         TextView phoneTextView = (TextView) listItemView.findViewById(R.id.phone_textView);
         // Get the carolinas address from the currentPlace object and set this text on
         // the carolinas TextView.
-        phoneTextView.setText(currentPlace.getmPhone());
+        phoneTextView.setText(currentPlace.getPhone());
         // Find the ImageView in the list_item.xml layout with the ID image.
         ImageView imageView = (ImageView) listItemView.findViewById(R.id.image);
 
